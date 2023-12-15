@@ -1,0 +1,129 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.565);
+}
+.navbar{
+    padding: .3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: crimson;
+    color: white;
+}
+
+.navbar h1{
+    cursor: pointer;
+}
+.navbar ul{
+    display: flex;
+align-items: center;
+gap: 2rem;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s ;
+}
+.navbar ul li a:hover{
+
+    color: rgba(0, 0, 0, 0.529);
+}
+
+.search-input input{
+    padding: .6rem 1.4rem;
+    outline: none;
+    background-color: rgba(7, 7, 7, 0.353);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+button{
+    cursor: pointer;
+    padding:.5rem 1rem .5rem 1rem;
+    border: none;
+    /* text-align: center; */
+    margin: auto;
+    transition: .3s;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+
+
+/* food  */
+
+ .container{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} 
+.items{
+    height: 11rem;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    margin: 1rem;
+    display: flex;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+
+}
+
+.text h2{
+    /* width: calc(100% - 8rem); */
+    /* width: 5px;
+     */
+     margin-bottom: .3rem;
+     font-size: 1.4rem;
+}
+
+.text p{
+    margin-bottom: .5rem;
+    width: 15rem;
+    color: rgba(218, 215, 215, 0.699);
+}
+
+.text h5{
+    margin-top: .5rem;
+    color: orangered;
+}
+
+
+span{
+    padding: .1rem;
+    border-radius: 5px;
+    /* margin: .3rem; */
+    /* margin-top: .5rem;
+    margin-bottom: .5rem; */
+    background-color: green;
+    color: white;
+    width:inherit;
+}
